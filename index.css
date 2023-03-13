@@ -1,9 +1,15 @@
 body {
+    margin: 0;
     background-color: #0A1627;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 img {
     margin: 20px;
-    margin-left: 100px;
     border: 2px solid white;
 }
