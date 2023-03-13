@@ -7,24 +7,33 @@ body {
 
 .container {
     display:flex;
-    justify-content: space-around;
+    /* justify-content:;  */
+    /* position: relative; */
 }
 
 header {
-    background: #10045f;
+    background: linear-gradient(90deg, #9dbde5 1%, #002d65 100%);
     text-align: center;
+    border-bottom: 2px solid white;
+    height: 100px;
+    
+    
 }
 
 header::after {
     content: '';
     display: table;
     clear: both;
+    
 }
 
 .logo {
-    margin: 12px 0;
+    margin: 20px 0 0 100px;
     float: left;
-    border: 2px solid white;
+    border: 1px solid white;
+    border-width:2px 2px 0 2px;
+
+    position: absolute;
 }
 
 nav {
@@ -32,15 +41,14 @@ nav {
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
+    margin-left: 950px;
     list-style: none;
 }
 
 nav li {
     display: inline-block;
-    margin-left: 30px;
-    padding-top: 40px;
+    margin-left: 80px;
+    padding-top: 25px;
 
     position: relative;
 }
@@ -49,7 +57,7 @@ nav a {
     color: rgb(202, 205, 248);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 nav a:hover {
@@ -61,7 +69,7 @@ nav a::before {
     display: block;
     height: 5px;
     width: 100%;
-    background: #6b6898;
+    background: #9694b3;
 
     position: absolute;
     top: 15px;
